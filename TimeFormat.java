@@ -13,12 +13,12 @@ public class TimeFormat {
 		    }else if((hours > 12) && (hours <= 23)){
 		        System.out.print((hours - 12) + ":" + min + " PM");
 		    }else if(hours == 12){
-		        System.out.println(hours + ":" + min + " PM");
+		        System.out.println(hours + ":123" + min + " PM");
 		    }   
 		    else{
 		        System.out.print("error");
 		    }
-			
+
 		}else{
 		    if((hours >= 0) && (hours < 12)){
 		        System.out.print(hours + ":" + minutes + " AM");
