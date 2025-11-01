@@ -4,11 +4,11 @@ public class Bill3 {
 	    String name1 = args[0];
 		String name2 = args[1];
 		String name3 = args[2];
+        int bill = Integer.parseInt(args [3]);
 
-		int bill = Integer.parseInt (args [3]);
-	    Double pay = (double)bill / 3;
-		
+		Double pay = (double)bill / 3;
+
 		System.out.println("Dear " + name3 + ", " + name2 + " and " +
-		                   name1 + " pay " + Math.ceil(pay) + " Shekels each."); 
+		                   name1 + " pay " + Math.ceil(pay) + " Shekels each.");
 	}
-}
+}						   

@@ -3,7 +3,7 @@
 public class Ascend {
 	public static void main(String[] args) {
 	    int lim = Integer.parseInt(args [0]);
-	    
+
 		int a, b, c;
 		a = (int)(Math.random() * lim);
 		b = (int)(Math.random() * lim);
@@ -15,9 +15,9 @@ public class Ascend {
 		max = Math.max(a, b);
 		max = Math.max(max, c);
 		middle = a + b + c - min - max;
-		
-	    
-		System.out.println(a + " " + b + " " + c );
+
+
+		System.out.println(a + " " + b + " " + c);
 		System.out.println(min + " " + middle + " " + max);
 	}
 }
